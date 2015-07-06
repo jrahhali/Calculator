@@ -1,0 +1,7 @@
+<project name="Calculator">
+    <property name="src.dir" value="src/main/java" />
+	<property name="test.dir" value="src/test/java" />
+	<property name="build.src.dir" value="build/src/classes" />
+	<property name="build.test.dir" value="build/test/classes" />
+	
+</project>
