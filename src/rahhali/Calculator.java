@@ -3,72 +3,89 @@ package rahhali;
 public class Calculator {
 	Expression expression = new Expression();
 	
-	public void dot() {
+	public Calculator dot() {
 		expression.dot();
+		return this;
 	}
 	
-	public void zero() {
+	public Calculator zero() {
 		expression.zero();
+		return this;
 	}
 	
-	public void one() {
+	public Calculator one() {
 		expression.one();
+		return this;
 	}
 	
-	public void two() {
+	public Calculator two() {
 		expression.two();
+		return this;
 	}
 	
-	public void three() {
+	public Calculator three() {
 		expression.three();
+		return this;
 	}	
 	
-	public void four() {
+	public Calculator four() {
 		expression.four();
+		return this;
 	}	
 	
-	public void five() {
+	public Calculator five() {
 		expression.five();
+		return this;
 	}
 	
-	public void six() {
+	public Calculator six() {
 		expression.six();
+		return this;
 	}
 	
-	public void seven() {
+	public Calculator seven() {
 		expression.seven();
+		return this;
 	}
 	
-	public void eight() {
+	public Calculator eight() {
 		expression.eight();
+		return this;
 	}
 	
-	public void nine() {
+	public Calculator nine() {
 		expression.nine();
+		return this;
 	}
 	
-	public void openBracket() {
+	public Calculator openBracket() {
 		expression.openBracket();
+		return this;
 	}
 	
-	public void closeBracket() {
+	public Calculator closeBracket() {
 		expression.closeBracket();
+		return this;
 	}
 	
-	public void dividedBy() {
+	public Calculator dividedBy() {
 		expression.dividedBy();
+		return this;
 	}
 	
-	public void times() {
+	public Calculator times() {
 		expression.times();
+		return this;
 	}	
 	
-	public void plus() {
+	public Calculator plus() {
 		expression.plus();
+		return this;
 	}
 	
-	public void minus() {
+	public Calculator minus() {
 		expression.minus();
+		return this;
 	}
 	
 	public String equals() {
