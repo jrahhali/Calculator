@@ -1,7 +1,13 @@
 package rahhali;
 
+import rahhali.expression.Expression;
+
 public class Calculator {
-	Expression expression = new Expression();
+	private Expression expression = new Expression();
+	
+	public void clear() {
+		expression = new Expression();
+	}	
 	
 	public Calculator dot() {
 		expression.dot();
